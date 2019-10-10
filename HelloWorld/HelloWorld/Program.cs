@@ -8,9 +8,12 @@ namespace HelloWorld
 {
     class Program
     {
-        static void Main(string[] args)
+        static void WriteScreen()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!\naaaa");
+        }
+        static void Main(string[] args)
+        {            
             Console.ReadKey();
         }
     }
