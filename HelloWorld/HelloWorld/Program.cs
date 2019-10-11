@@ -10,10 +10,14 @@ namespace HelloWorld
     {
         static void WriteScreen()
         {
+            string a = ("Vou testar");
+            string b = (" as strings do C#");
+            Console.WriteLine(a + b);
             Console.WriteLine("Hello World!\naaaa");
         }
         static void Main(string[] args)
-        {            
+        {
+            WriteScreen();
             Console.ReadKey();
         }
     }
